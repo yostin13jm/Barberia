@@ -167,6 +167,9 @@ public class Loggin extends javax.swing.JFrame {
     private void btnRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarActionPerformed
         registrar = new Registro();
         registrar.setVisible(true);
+        
+        //esconde el loggin y solo muestra el registro
+        setVisible(false);
     }//GEN-LAST:event_btnRegistrarActionPerformed
 
    
