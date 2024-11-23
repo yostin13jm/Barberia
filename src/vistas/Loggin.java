@@ -4,6 +4,8 @@
  */
 package vistas;
 
+import vistas.Cliente.DashboardCliente;
+
 
 public class Loggin extends javax.swing.JFrame {
     //instancia del formulario Registro
